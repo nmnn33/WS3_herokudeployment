@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node WS3_6.js",
-    "test": "node index.js"
+    "start": "node WS3_6.js"
   },
   "author": "LTT",
   "license": "ISC"
