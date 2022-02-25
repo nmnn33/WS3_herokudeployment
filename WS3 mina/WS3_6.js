@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 8801;
 var http = require("http");
 // Otetaan axios-moduuli käyttöön
 var axios = require("axios");
@@ -21,7 +22,7 @@ http
                 response.end('Ongelmia ;/')
             })
     })
-    .listen(8801);
+    .listen(PORT);
 
 function parse(data) {
     var html = "<table border='1'>";
